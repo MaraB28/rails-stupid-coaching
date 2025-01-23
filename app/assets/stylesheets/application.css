@@ -13,3 +13,52 @@
  *= require_tree .
  *= require_self
  */
+ .card-answer {
+  background: rgb(246, 247, 224);
+  padding: 15px;
+  margin-left: 30px;
+  border: 1px transparent lightgrey;
+  box-shadow: -10px 0px 0px rgba(0,0,0,.07);
+  width: 620px;
+  border-radius: 5px
+}
+.card-question {
+  background: white;
+  padding: 15px;
+  margin-left: 30px;
+  border: 1px transparent lightgrey;
+  box-shadow: -10px 0px 0px rgba(0,0,0,.07);
+  width: 620px;
+  border-radius: 5px;
+}
+.title {
+  margin-left: 30px;
+  margin-bottom: 40px;
+
+}
+
+.link {
+  margin-left: 30px;
+}
+
+.link2 {
+  margin-left: 30px;
+  width:650px;
+  border-radius: 4px;
+  height: 45px;
+
+}
+
+.italic {
+  font-style: italic;
+}
+
+
+.btn-primary {
+  margin-left: -44px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 45px;
+  width: 60px;
+  background-color: rgb(63, 103, 176);
+}
